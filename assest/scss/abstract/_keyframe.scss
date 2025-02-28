@@ -1,0 +1,19 @@
+
+@use "../abstract/function" as func;
+@keyframes colorChange {
+  0% {
+    color: red;
+  }
+  25% {
+    color: func.theme-color("primary");
+  }
+  50% {
+    color: greenyellow;
+  }
+  75% {
+    color: palevioletred;
+  }
+  100% {
+    color: skyblue;
+  }
+}
