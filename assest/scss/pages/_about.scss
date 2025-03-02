@@ -13,21 +13,20 @@
   }
   &--content {
     color: #fff;
-    h2{
-  font-size: 2rem;
+    h2 {
+      font-size: 2rem;
     }
-    p{
-        line-height: 1.5;
-        text-align: justify;
+    p {
+      line-height: 1.5;
+      text-align: justify;
+      color: ghostwhite;
+      a {
+        text-decoration: none;
         color: ghostwhite;
-        a{
-            text-decoration: none;
-            color: ghostwhite;
-           &:hover{
-            text-shadow: 10px 20px 30px  black;
-           }
-;
+        &:hover {
+          text-shadow: 10px 20px 30px black;
         }
+      }
     }
   }
 }
