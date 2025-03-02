@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   padding: 30px 200px;
-  height: 200vh;
+ 
 
   &__title--link {
     color: #000;
@@ -18,10 +18,9 @@
 }
 
 .container__menus {
-   
   &--navtag {
     display: inline-flex;
-      align-items: center;
+    align-items: center;
   }
   &--ultag {
     display: flex;
@@ -42,16 +41,18 @@
     }
   }
   &--button {
-    background-color: func.theme-color("primary");
+    background-color: func.theme-color();
+ border: 2px solid func.theme-color();
     padding: 5px 10px;
     border-radius: 4px;
     &--link {
-      color: #fff;
+      color: #ffffff;
       text-decoration: none;
-      
     }
   }
   &--active {
     color: func.theme-color();
   }
 }
+
+

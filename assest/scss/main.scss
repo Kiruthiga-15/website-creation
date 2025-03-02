@@ -1,10 +1,17 @@
 
 //base-rest
 @use "./base/reset";
+@use "./base/background_element";
 //abstarct-variable folder
 @use "./abstract/variables";
-//keyframe
-@use "./abstract/keyframe";
+
 //components-header
 @use "./components/header";
+@use "./components/badges";
 
+//keyframe
+@use "./abstract/keyframe";
+@use "./abstract/spacing";
+
+//homepage
+@use "./pages/home"

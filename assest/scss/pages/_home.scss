@@ -1,0 +1,34 @@
+@use "../abstract/function" as func;
+
+.hero {
+  display: flex;
+  padding: 8rem 12rem;
+  justify-content: space-around;
+  align-items: center;
+  &__desc {
+    display: inline-flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    &--para {
+      text-align: justify;
+    }
+}
+  &__btn {
+    justify-content: space-between;
+    &--btns {
+      background-color: func.theme-color();
+
+      padding: 10px;
+      border-radius: 5px;
+      border: 2px solid func.theme-color();
+    }
+  }
+  &__btn--learn{
+    color: #fff;
+    text-decoration: none;
+    &:hover{
+        background-color: transparent;
+    }
+  }
+}
+

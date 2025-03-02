@@ -1,4 +1,3 @@
-
 @use "../abstract/function" as func;
 @keyframes colorChange {
   0% {
@@ -15,5 +14,14 @@
   }
   100% {
     color: skyblue;
+  }
+}
+
+@keyframes box-shape {
+  0% {
+    transform: rotate(0deg);
+  }
+   100% {
+    transform: rotate(360deg);
   }
 }
