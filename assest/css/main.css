@@ -918,4 +918,35 @@
 }
 .hero__btn--learn:hover {
   background-color: transparent;
+}
+
+.about-area {
+  background-color: #003cff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8rem 20rem;
+  margin-top: 11rem;
+}
+.about-area--img {
+  width: 15rem;
+  height: 15rem;
+}
+.about-area--content {
+  color: #fff;
+}
+.about-area--content h2 {
+  font-size: 2rem;
+}
+.about-area--content p {
+  line-height: 1.5;
+  text-align: justify;
+  color: ghostwhite;
+}
+.about-area--content p a {
+  text-decoration: none;
+  color: ghostwhite;
+}
+.about-area--content p a:hover {
+  text-shadow: 10px 20px 30px black;
 }/*# sourceMappingURL=main.css.map */
